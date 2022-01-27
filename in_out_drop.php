@@ -1,9 +1,4 @@
 <?php
-
-include '../libs/database.php';
-include '../libs/functions.php';
-session_start();
-
 if (count($_REQUEST) >= 0) {
 	$date_start = date_ymd($_REQUEST['date_start']);
 	$date_end = date_ymd($_REQUEST['date_end']);
